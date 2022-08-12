@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /index.html
+  - source: /index.php
     destination: /usr/share/nginx/html
 hooks:
   BeforeInstall:
