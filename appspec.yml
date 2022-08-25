@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /index.html
-    destination: /usr/share/nginx/html
+  - source: /index.php
+    destination: /var/www/html
 hooks:
   BeforeInstall:
     - location: scripts/clean_root
